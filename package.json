@@ -1,17 +1,32 @@
 {
+  "private": true,
   "name": "world",
   "version": "0.0.0",
-  "description": "",
-  "main": "index.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
+  "description": "Keeping track of visited and outstanding places around the globe",
   "author": "Federico Knüssel <fknussel@gmail.com>",
   "license": "MIT",
+  "main": "index.html",
+  "scripts": {
+    "clean": "rimraf build",
+    "mkdir": "mkdirp build",
+    "bundle": "browserify src/index.js -o build/bundle.js -t [ babelify --presets [ es2015 ] ]",
+    "watch": "watchify src/*.js -o build/bundle.js -dv -t [ babelify --presets [ es2015 ] ]",
+    "webserver": "http-server -p 6789",
+    "build": "npm-run-all clean mkdir bundle",
+    "start": "npm-run-all --parallel webserver watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
-    "d3": "^4.4.4",
-    "datamaps": "^0.5.8",
-    "topojson": "^2.2.0"
+    "datamaps": "^0.5.8"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.22.0",
+    "babelify": "^7.3.0",
+    "browserify": "^14.0.0",
+    "http-server": "^0.9.0",
+    "mkdirp": "^0.5.1",
+    "npm-run-all": "^4.0.1",
+    "rimraf": "^2.5.4",
+    "watchify": "^3.9.0"
   }
 }
