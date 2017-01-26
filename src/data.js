@@ -9,18 +9,24 @@ const norway = 'NOR';
 const india = 'IND';
 const australia = 'AUS';
 const argentina = 'ARG';
+const brazil = 'BRA';
+const uruguay = 'URY';
+const peru = 'PER';
 const unitedStates = 'USA';
 const mexico = 'MEX';
 const newZealand = 'NZL';
+const dominicanRepublic = 'DOM';
 
 export default {
-  [russia]: visited,
-  [canada]: visited,
-  [norway]: visited,
-  [india]: visited,
+  // Visited
   [australia]: visited,
-  [argentina]: outstanding,
+  [argentina]: visited,
+  [brazil]: visited,
+  [uruguay]: visited,
   [unitedStates]: visited,
-  [mexico]: outstanding,
+  [dominicanRepublic]: visited,
+  [peru]: visited,
+
+  // Outstanding
   [newZealand]: outstanding
 };
