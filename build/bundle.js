@@ -22786,7 +22786,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 var colors = exports.colors = {
   visited: '#7cbb00',
-  outstanding: '#ffbb00',
+  outstanding: '#f65314',
   default: '#ccc',
   border: '#666',
   highlight: '#0275d8',
@@ -22800,7 +22800,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _australia$argentina$;
+var _argentina$australia$;
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
@@ -22809,21 +22809,45 @@ var outstanding = { fillKey: 'outstanding' };
 
 // ISO ALPHA-3 Country Codes
 // http://www.nationsonline.org/oneworld/country_code_list.htm
-var russia = 'RUS';
+
+// North America
 var canada = 'CAN';
-var norway = 'NOR';
-var india = 'IND';
-var australia = 'AUS';
+var unitedStates = 'USA';
+
+// Caribbean
+var dominicanRepublic = 'DOM';
+
+// South America
 var argentina = 'ARG';
 var brazil = 'BRA';
 var uruguay = 'URY';
 var peru = 'PER';
-var unitedStates = 'USA';
-var mexico = 'MEX';
-var newZealand = 'NZL';
-var dominicanRepublic = 'DOM';
 
-exports.default = (_australia$argentina$ = {}, _defineProperty(_australia$argentina$, australia, visited), _defineProperty(_australia$argentina$, argentina, visited), _defineProperty(_australia$argentina$, brazil, visited), _defineProperty(_australia$argentina$, uruguay, visited), _defineProperty(_australia$argentina$, unitedStates, visited), _defineProperty(_australia$argentina$, dominicanRepublic, visited), _defineProperty(_australia$argentina$, peru, visited), _defineProperty(_australia$argentina$, newZealand, outstanding), _australia$argentina$);
+// Oceania
+var australia = 'AUS';
+var newZealand = 'NZL';
+
+// Europe
+var austria = 'AUT';
+var croatia = 'HRV';
+var czechia = 'CZE';
+var denmark = 'DNK';
+var germany = 'DEU';
+var greece = 'GRC';
+var hungary = 'HUN';
+var iceland = 'ICL';
+var ireland = 'IRL';
+var italy = 'ITA';
+var portugal = 'PRT';
+var unitedKingdom = 'GBR';
+var slovakia = 'SVK';
+var slovenia = 'SVN';
+var switzerland = 'CHE';
+
+// Africa
+var southAfrica = 'ZAF';
+
+exports.default = (_argentina$australia$ = {}, _defineProperty(_argentina$australia$, argentina, visited), _defineProperty(_argentina$australia$, australia, visited), _defineProperty(_argentina$australia$, austria, visited), _defineProperty(_argentina$australia$, brazil, visited), _defineProperty(_argentina$australia$, croatia, visited), _defineProperty(_argentina$australia$, czechia, visited), _defineProperty(_argentina$australia$, denmark, visited), _defineProperty(_argentina$australia$, dominicanRepublic, visited), _defineProperty(_argentina$australia$, germany, visited), _defineProperty(_argentina$australia$, hungary, visited), _defineProperty(_argentina$australia$, italy, visited), _defineProperty(_argentina$australia$, newZealand, visited), _defineProperty(_argentina$australia$, peru, visited), _defineProperty(_argentina$australia$, unitedStates, visited), _defineProperty(_argentina$australia$, uruguay, visited), _defineProperty(_argentina$australia$, slovakia, visited), _defineProperty(_argentina$australia$, slovenia, visited), _defineProperty(_argentina$australia$, switzerland, visited), _defineProperty(_argentina$australia$, canada, outstanding), _defineProperty(_argentina$australia$, greece, outstanding), _defineProperty(_argentina$australia$, iceland, outstanding), _defineProperty(_argentina$australia$, ireland, outstanding), _defineProperty(_argentina$australia$, portugal, outstanding), _defineProperty(_argentina$australia$, southAfrica, outstanding), _defineProperty(_argentina$australia$, unitedKingdom, outstanding), _argentina$australia$);
 
 },{}],6:[function(require,module,exports){
 'use strict';
