@@ -22838,16 +22838,18 @@ var hungary = 'HUN';
 var iceland = 'ICL';
 var ireland = 'IRL';
 var italy = 'ITA';
+var norway = 'NOR';
 var portugal = 'PRT';
 var unitedKingdom = 'GBR';
 var slovakia = 'SVK';
 var slovenia = 'SVN';
+var sweden = 'SWE';
 var switzerland = 'CHE';
 
 // Africa
 var southAfrica = 'ZAF';
 
-exports.default = (_argentina$australia$ = {}, _defineProperty(_argentina$australia$, argentina, visited), _defineProperty(_argentina$australia$, australia, visited), _defineProperty(_argentina$australia$, austria, visited), _defineProperty(_argentina$australia$, brazil, visited), _defineProperty(_argentina$australia$, croatia, visited), _defineProperty(_argentina$australia$, czechia, visited), _defineProperty(_argentina$australia$, denmark, visited), _defineProperty(_argentina$australia$, dominicanRepublic, visited), _defineProperty(_argentina$australia$, germany, visited), _defineProperty(_argentina$australia$, hungary, visited), _defineProperty(_argentina$australia$, italy, visited), _defineProperty(_argentina$australia$, newZealand, visited), _defineProperty(_argentina$australia$, peru, visited), _defineProperty(_argentina$australia$, unitedStates, visited), _defineProperty(_argentina$australia$, uruguay, visited), _defineProperty(_argentina$australia$, slovakia, visited), _defineProperty(_argentina$australia$, slovenia, visited), _defineProperty(_argentina$australia$, switzerland, visited), _defineProperty(_argentina$australia$, canada, outstanding), _defineProperty(_argentina$australia$, greece, outstanding), _defineProperty(_argentina$australia$, iceland, outstanding), _defineProperty(_argentina$australia$, ireland, outstanding), _defineProperty(_argentina$australia$, portugal, outstanding), _defineProperty(_argentina$australia$, southAfrica, outstanding), _defineProperty(_argentina$australia$, unitedKingdom, outstanding), _argentina$australia$);
+exports.default = (_argentina$australia$ = {}, _defineProperty(_argentina$australia$, argentina, visited), _defineProperty(_argentina$australia$, australia, visited), _defineProperty(_argentina$australia$, austria, visited), _defineProperty(_argentina$australia$, brazil, visited), _defineProperty(_argentina$australia$, croatia, visited), _defineProperty(_argentina$australia$, czechia, visited), _defineProperty(_argentina$australia$, denmark, visited), _defineProperty(_argentina$australia$, dominicanRepublic, visited), _defineProperty(_argentina$australia$, germany, visited), _defineProperty(_argentina$australia$, hungary, visited), _defineProperty(_argentina$australia$, italy, visited), _defineProperty(_argentina$australia$, newZealand, visited), _defineProperty(_argentina$australia$, norway, visited), _defineProperty(_argentina$australia$, peru, visited), _defineProperty(_argentina$australia$, unitedStates, visited), _defineProperty(_argentina$australia$, uruguay, visited), _defineProperty(_argentina$australia$, slovakia, visited), _defineProperty(_argentina$australia$, slovenia, visited), _defineProperty(_argentina$australia$, switzerland, visited), _defineProperty(_argentina$australia$, sweden, visited), _defineProperty(_argentina$australia$, canada, outstanding), _defineProperty(_argentina$australia$, greece, outstanding), _defineProperty(_argentina$australia$, iceland, outstanding), _defineProperty(_argentina$australia$, ireland, outstanding), _defineProperty(_argentina$australia$, portugal, outstanding), _defineProperty(_argentina$australia$, southAfrica, outstanding), _defineProperty(_argentina$australia$, unitedKingdom, outstanding), _argentina$australia$);
 
 },{}],6:[function(require,module,exports){
 'use strict';

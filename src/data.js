@@ -32,10 +32,12 @@ const hungary = 'HUN';
 const iceland = 'ICL';
 const ireland = 'IRL';
 const italy = 'ITA';
+const norway = 'NOR';
 const portugal = 'PRT';
 const unitedKingdom = 'GBR';
 const slovakia = 'SVK';
 const slovenia = 'SVN';
+const sweden = 'SWE';
 const switzerland = 'CHE';
 
 // Africa
@@ -55,12 +57,14 @@ export default {
   [hungary]: visited,
   [italy]: visited,
   [newZealand]: visited,
+  [norway]: visited,
   [peru]: visited,
   [unitedStates]: visited,
   [uruguay]: visited,
   [slovakia]: visited,
   [slovenia]: visited,
   [switzerland]: visited,
+  [sweden]: visited,
 
   // Outstanding
   [canada]: outstanding,
